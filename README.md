@@ -10,11 +10,11 @@ Here, I placed a couple of notebooks on problems I liked.
 
 ## Twitter Sentiment Analysis
 
-The [first notebook](./Twitter_sentiment_analysis.ipynb) is just on plain old tweet sentiment analysis on a large enough dataset. The solution is not even my own, I took it and worked on it from a notebook shared in Kaggle by [Paolo Ripamonti](https://twitter.com/ripamonti93). 
+The [first notebook](./Twitter_sentiment_analysis.ipynb) is a plain old tweet sentiment analysis on a large enough dataset. The solution is not even my own, I took it and worked on it from a notebook shared in Kaggle by [Paolo Ripamonti](https://twitter.com/ripamonti93). My contribution is on enabling the TPU's and providing comments or small suggestions.
 
-I found the solution elegant for the given dataset, which was [Sentiment140](https://www.kaggle.com/kazanova/sentiment140). Paolo took advantage of the size of the dataset (1.6 million labeled tweets) and showcased the power of Word2Vec embeddings trained entirely on it. 
-
-He proved then that when the embeddings are coupled with an LSTM for supervised training, we are off to a good start :)
+I found the solution elegant for the given dataset, which was [Sentiment140](https://www.kaggle.com/kazanova/sentiment140). Paolo took advantage of the size of the dataset (1.6 million labeled tweets) and showcased the power of Word2Vec embeddings trained entirely on it. He proved then that when the embeddings are coupled with an LSTM and supervised training, we are off to a good start :)
 
 
 ## Alzheimer's text classification
+
+The [second notebook](Alzheimer's_text_classification.ipynb) is 
