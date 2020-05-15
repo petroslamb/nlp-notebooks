@@ -26,3 +26,5 @@ Having only 60 (30 positive, 30 negative) labeled short text transcripts of [the
 My short transcripts easily fitted in BERT's input limitation, and Jay smartly had found a way to use the model only as a feature extractor. With very little resources and no need for GPU's, the 768 features of [DistilBERT's](https://arxiv.org/abs/1910.01108) [CLS] token (which compresses information from the entire sequence), where fed into a simple linear classifier for supervised training. Nice!
 
 ![Boston-cookie-theft-description-task](./Boston-cookie-theft-description-task-Participants-were-asked-to-describe-all-events-in.png "Boston-cookie-theft-description-task")
+
+The picture above is used for the Boston Cookie Theft Description Task
