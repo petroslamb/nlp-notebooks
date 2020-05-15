@@ -1,7 +1,11 @@
-# NLP Notebooks and Other approaches on problems I liked
+# Notebooks and other problems I liked
 
 
-I have been digging into the field of NLP for the last couple of years, by attending a local meetup and a summerschool. Here, I placed a couple of notebooks on problems I liked and probably a few other things in the future.
+I have been digging into the field of NLP for the last couple of years, by sitting in the weekly meetups of a [local research group](http://nlp.cs.aueb.gr/), gettting into a [local competition](https://race.nbg.gr/challenge-details/wordembedding) and attending a [local summer school](https://www.youtube.com/playlist?list=PLSWgH7JB2-1G2h8wj-ecK8FfpX72Z80_B). 
+
+All this local stuff has now moved in the digital realm, with COVID-19. So I tried to keep up by attending the NLP track for [online ICLR 2020](https://iclr.cc/virtual/index.html), and it was well worth it!
+
+Here, I placed a couple of notebooks on problems I liked.
 
 
 ## Twitter Sentiment Analysis
