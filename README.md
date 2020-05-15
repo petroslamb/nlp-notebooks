@@ -21,6 +21,6 @@ The [second notebook](Alzheimer's_text_classification.ipynb) is an attempt to cl
 
 The idea to identify this automatically becomes interesting with modern NLP methods. As a first approach I used a notebook by [Jay Alammar's](https://twitter.com/JayAlammar) well known blog, with article titled [A Visual Notebook to Using BERT for the First TIme](http://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/).
 
-Having only 60 (30 positive, 30 negative) labeled short text transcripts of the Boston Cookie Theft challenge, I needed a method that would work with only few labeled examples. So I adjusted Jay's notebook to use a destilled version of the famous pre-trained BERT language model, to work with my toy dataset. 
+Having only 60 (30 positive, 30 negative) labeled short text transcripts of [the Boston Cookie Theft](https://aspieantiquarian.wordpress.com/2015/01/01/the-boston-cookie-theft/) challenge, I needed a method that would work with only few labeled examples. So I adjusted Jay's notebook to use a destilled version of the famous pre-trained BERT language model, to work with my toy dataset. 
 
 My short transcripts easily fitted in BERT's input limitation, and Jay smartly had found a way to use the model only as a feature extractor. With very little resources and no need for GPU's, the 768 features of Distilled BERT's [CLS] token (which compresses information from the entire sequence), where fed into a simple linear classifier for supervised training. Nice!
