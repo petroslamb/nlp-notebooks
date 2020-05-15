@@ -5,7 +5,7 @@ I have been digging into the field of NLP for the last couple of years, by sitti
 
 All this local stuff has now moved in the digital realm, with COVID-19. So I tried to keep up by attending the NLP track for [online ICLR 2020](https://iclr.cc/virtual/index.html), and it was well worth it!
 
-Here, I placed a couple of notebooks on problems I liked. Twitter sentiment analysis and more notably Alsheimer's text classification.
+Here, I placed a couple of notebooks on problems I liked. Twitter sentiment analysis and more notably Alzheimer's text classification.
 
 
 ## Twitter Sentiment Analysis
