@@ -19,7 +19,7 @@ I found the solution elegant for the given dataset, which was [Sentiment140](htt
 
 The [second notebook](Alzheimer's_text_classification.ipynb) is an attempt to classify potential Alzheimer's onset on patients, using transcripts of their descriptions of a picture. This is a standard method for physicians to perform an initial screening evaluation, using the correlation of the impact of Alzheimer's, on a persons ability to coherently describe a viewed setting.
 
-The idea to identify this automatically becomes interesting with modern NLP methods. As a first approach I used a notebook by [Jay Alammar's](https://twitter.com/JayAlammar) well known blog, with article titled [A Visual Notebook to Using BERT for the First TIme](http://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/).
+The idea to identify this automatically becomes interesting with modern NLP methods. I first came across the idea from the interesting research by [Vassiliki Rentoumi](https://scholar.google.gr/citations?user=je_Ldd8AAAAJ&hl=en).  As a first approach I used a notebook by [Jay Alammar's](https://twitter.com/JayAlammar) well known blog, with article titled [A Visual Notebook to Using BERT for the First TIme](http://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/).
 
 Having only 60 (30 positive, 30 negative) labeled short text transcripts of [the Boston Cookie Theft](https://aspieantiquarian.wordpress.com/2015/01/01/the-boston-cookie-theft/) challenge, I needed a method that would work with only few labeled examples. So I adjusted Jay's notebook to use a destilled version of the famous pre-trained BERT language model, to work with my toy dataset. 
 
